@@ -1,0 +1,8 @@
+{
+  "name": "commit-bot",
+  "description": "Daily push with a telegram for committing and coding",
+  "memory": 128,
+  "timeout": 5,
+  "role": "<your-role-arn-of-lambda>",
+  "environment": {}
+}
