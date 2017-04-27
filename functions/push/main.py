@@ -28,8 +28,8 @@ def get_total_count_of_commits(commits) :
 
 def handle(event, context):
     client = Github(config['github']['id'], config['github']['password'])
-    utcnow = datetime.utcnow() + timedelta(hours=9)
-    today = datetime(utcnow.year, utcnow.month, utcnow.day)
+    now = datetime.utcnow() + timedelta(hours=9)
+    today = datetime(now.year, now.month, now.day)
 
     for k, v in config['github']['branch'].iteritems():
         try:
