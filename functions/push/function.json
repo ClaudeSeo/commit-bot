@@ -1,7 +1,7 @@
 {
   "description": "Daily push with a telegram for committing and coding",
   "hooks":{
-    "build": "pip install -r requirements.txt -t ./dependency"
+    "build": "pip install -r requirements.txt -t ."
   },
   "runtime": "python"
 }
