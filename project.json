@@ -4,5 +4,6 @@
   "memory": 128,
   "timeout": 5,
   "role": "<your-role-arn-of-lambda>",
-  "environment": {}
+  "environment": {},
+  "profile": "commit-alarm"
 }
